@@ -10,6 +10,19 @@ An online CV/resume editor with real-time PDF preview and AI-powered resume gene
 - Dark/light mode toggle
 - Responsive layout
 
+## Prerequisites
+
+Ensure XeLaTeX is installed on your system:
+
+```bash
+sudo apt-get install texlive-full
+```
+
+Verify installation:
+```bash
+xelatex --version
+```
+
 ## Setup
 
 1. Clone the repository
@@ -21,7 +34,19 @@ npm install
 ```bash
 npm run setup
 ```
-4. Add your API keys to `.env.local`:
+4. Acquire and add your API keys to `.env.local`:
+
+**Google Gemini API Key**:
+1. Go to [Google MakerSuite](https://makersuite.google.com)
+2. Create a new API key
+3. Copy and paste into `.env.local`
+
+**Groq API Key**:
+1. Sign up at [Groq Cloud](https://console.groq.com)
+2. Create a new API key
+3. Copy and paste into `.env.local`
+
+Example `.env.local`:
 ```
 GOOGLE_API_KEY=your_google_api_key_here
 GROQ_API_KEY=your_groq_api_key_here
@@ -69,7 +94,3 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
    - Click "Generate Resume"
    - The AI will generate a customized LaTeX resume based on your profile and the job description
    - Click "Generate PDF" to see the final result
-
-
-
-
