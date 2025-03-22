@@ -1,0 +1,80 @@
+\documentclass[10pt]{article}
+\usepackage[paperwidth=9in, paperheight=12in, margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\pagestyle{empty}
+\usepackage{fontspec}
+\setmainfont{Linux Libertine}
+
+\titleformat{\section}{\bfseries\Large\raggedright}{}{0em}{}
+\titleformat{\subsection}{\bfseries\large\raggedright}{}{0em}{}
+
+\setlist[itemize]{left=0pt}
+\renewcommand{\baselinestretch}{1.2}
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge Candidate Name} \\
+    \rule{\textwidth}{0.5pt} \\ 
+    480-495-8933 \quad \href{mailto:candidate_email_id}{candidate_email_id} \quad 
+    \href{candidate_linkedin_url}{candidate_linkedin_url} \quad 
+    \href{candidate_github_url}{candidate_github_url} \\
+\end{center}
+
+
+\vspace{-1cm}
+
+\section*{Summary}
+\vspace{-0.3cm}
+[Provide a concise summary of professional background, skills, and objectives.]
+
+\vspace{-0.3cm}
+\section*{Work Experience}
+\vspace{-0.3cm}
+\noindent\textbf{[Job Title]} \hfill \textbf{[Start Date - End Date]}\\
+\textbf{[Company Name, Location]}
+\vspace{-0.2cm}
+\begin{itemize}[itemsep=-1mm]
+    \item Describe your first responsibility or achievement.
+    \item Describe your second responsibility or achievement.
+    \item Include additional relevant points.
+\end{itemize}
+
+\noindent\textbf{[Job Title 2]} \hfill \textbf{[Start Date - End Date]}\\
+\textbf{[Company Name, Location]}
+\vspace{-0.2cm}
+\begin{itemize}[itemsep=-1mm]
+    \item Describe your first responsibility or achievement.
+    \item Describe your second responsibility or achievement.
+    \item Include additional relevant points.
+\end{itemize}
+
+\vspace{-0.3cm}
+\section*{Skills}
+\vspace{-0.3cm}
+\begin{tabular}{@{}lp{15cm}}
+\textbf{Programming Languages} & [List programming languages] \\[0.3em]
+\textbf{Web Development} & [List web development skills] \\[0.3em]
+\textbf{Frameworks and Libraries} & [List frameworks and libraries] \\[0.3em]
+\textbf{Cloud and Infrastructure} & [List cloud and infrastructure skills] \\[0.3em]
+\textbf{Databases} & [List databases] \\[0.3em]
+\textbf{Visualization Tools} & [List visualization tools] \\[0.3em]
+\textbf{Machine Learning \& AI} & [List machine learning and AI skills] \\[0.3em]
+\textbf{Networking} & [List networking skills] \\
+\end{tabular}
+
+\vspace{-0.3cm}
+\section*{Education}
+\vspace{-0.3cm}
+\noindent\textbf{[University Name], [Location]} \hfill \textbf{[Start Date - End Date]} \\
+[Degree] \hfill \textbf{GPA: [GPA]}
+
+\vspace{0.2cm}
+\noindent\textbf{[University Name], [Location]} \hfill \textbf{[Start Date - End Date]} \\
+[Degree] \hfill \textbf{GPA: [GPA]}
+
+\vspace{-0.3cm}
+
+\end{document}

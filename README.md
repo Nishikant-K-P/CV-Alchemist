@@ -1,6 +1,6 @@
-# LaTeX Editor with AI Resume Generator
+# CV Alchemist - AI Resume Generator
 
-An online LaTeX editor with real-time PDF preview and AI-powered resume generation.
+An online CV/resume editor with real-time PDF preview and AI-powered resume generation.
 
 ## Features
 
@@ -33,6 +33,8 @@ Make sure these files exist in the `data` directory:
 
 - `candidate_profile.txt`: Contains your resume information
 - `resume_template.txt`: Contains the LaTeX template for the resume
+- Enter your candidate profile details in `candidate_profile.txt`
+- Enter/modify your resume template in `resume_template.txt`
 
 ## Running the Development Server
 
